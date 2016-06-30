@@ -1,0 +1,33 @@
+<%= form_for(@ignite) do |f| %>
+  <% if @ignite.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ignite.errors.count, "error") %> prohibited this ignite from being saved:</h2>
+
+      <ul>
+      <% @ignite.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :code %><br>
+    <%= f.text_field :code %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :data %><br>
+    <%= f.datetime_select :data %>
+  </div>
+
+  <%= f.file_field :slide_0 %>
+  <%= image_tag @ignite.slide_0.url(:small) %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

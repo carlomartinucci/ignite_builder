@@ -1,0 +1,112 @@
+# encoding: UTF-8
+# This file is auto-generated from the current state of the database. Instead
+# of editing this file, please use the migrations feature of Active Record to
+# incrementally modify your database, and then regenerate this schema definition.
+#
+# Note that this schema.rb definition is the authoritative source for your
+# database schema. If you need to create the application database on another
+# system, you should be using db:schema:load, not running all the migrations
+# from scratch. The latter is a flawed and unsustainable approach (the more migrations
+# you'll amass, the slower it'll run and the greater likelihood for issues).
+#
+# It's strongly recommended that you check this file into your version control system.
+
+ActiveRecord::Schema.define(version: 20160630082023) do
+
+  create_table "ignites", force: :cascade do |t|
+    t.string   "code"
+    t.string   "name"
+    t.datetime "data"
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+    t.string   "slide_0_file_name"
+    t.string   "slide_0_content_type"
+    t.integer  "slide_0_file_size"
+    t.datetime "slide_0_updated_at"
+    t.string   "slide_1_file_name"
+    t.string   "slide_1_content_type"
+    t.integer  "slide_1_file_size"
+    t.datetime "slide_1_updated_at"
+    t.string   "slide_2_file_name"
+    t.string   "slide_2_content_type"
+    t.integer  "slide_2_file_size"
+    t.datetime "slide_2_updated_at"
+    t.string   "slide_3_file_name"
+    t.string   "slide_3_content_type"
+    t.integer  "slide_3_file_size"
+    t.datetime "slide_3_updated_at"
+    t.string   "slide_4_file_name"
+    t.string   "slide_4_content_type"
+    t.integer  "slide_4_file_size"
+    t.datetime "slide_4_updated_at"
+    t.string   "slide_5_file_name"
+    t.string   "slide_5_content_type"
+    t.integer  "slide_5_file_size"
+    t.datetime "slide_5_updated_at"
+    t.string   "slide_6_file_name"
+    t.string   "slide_6_content_type"
+    t.integer  "slide_6_file_size"
+    t.datetime "slide_6_updated_at"
+    t.string   "slide_7_file_name"
+    t.string   "slide_7_content_type"
+    t.integer  "slide_7_file_size"
+    t.datetime "slide_7_updated_at"
+    t.string   "slide_8_file_name"
+    t.string   "slide_8_content_type"
+    t.integer  "slide_8_file_size"
+    t.datetime "slide_8_updated_at"
+    t.string   "slide_9_file_name"
+    t.string   "slide_9_content_type"
+    t.integer  "slide_9_file_size"
+    t.datetime "slide_9_updated_at"
+    t.string   "slide_10_file_name"
+    t.string   "slide_10_content_type"
+    t.integer  "slide_10_file_size"
+    t.datetime "slide_10_updated_at"
+    t.string   "slide_11_file_name"
+    t.string   "slide_11_content_type"
+    t.integer  "slide_11_file_size"
+    t.datetime "slide_11_updated_at"
+    t.string   "slide_12_file_name"
+    t.string   "slide_12_content_type"
+    t.integer  "slide_12_file_size"
+    t.datetime "slide_12_updated_at"
+    t.string   "slide_13_file_name"
+    t.string   "slide_13_content_type"
+    t.integer  "slide_13_file_size"
+    t.datetime "slide_13_updated_at"
+    t.string   "slide_14_file_name"
+    t.string   "slide_14_content_type"
+    t.integer  "slide_14_file_size"
+    t.datetime "slide_14_updated_at"
+    t.string   "slide_15_file_name"
+    t.string   "slide_15_content_type"
+    t.integer  "slide_15_file_size"
+    t.datetime "slide_15_updated_at"
+    t.string   "slide_16_file_name"
+    t.string   "slide_16_content_type"
+    t.integer  "slide_16_file_size"
+    t.datetime "slide_16_updated_at"
+    t.string   "slide_17_file_name"
+    t.string   "slide_17_content_type"
+    t.integer  "slide_17_file_size"
+    t.datetime "slide_17_updated_at"
+    t.string   "slide_18_file_name"
+    t.string   "slide_18_content_type"
+    t.integer  "slide_18_file_size"
+    t.datetime "slide_18_updated_at"
+    t.string   "slide_19_file_name"
+    t.string   "slide_19_content_type"
+    t.integer  "slide_19_file_size"
+    t.datetime "slide_19_updated_at"
+    t.string   "slide_20_file_name"
+    t.string   "slide_20_content_type"
+    t.integer  "slide_20_file_size"
+    t.datetime "slide_20_updated_at"
+    t.string   "slide_21_file_name"
+    t.string   "slide_21_content_type"
+    t.integer  "slide_21_file_size"
+    t.datetime "slide_21_updated_at"
+  end
+
+end

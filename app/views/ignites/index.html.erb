@@ -1,0 +1,21 @@
+<h1>Uqido Ignite</h1>
+<%= link_to 'Carica', new_ignite_path, class: "btn btn-primary pull-right" %>
+
+<% @ignites.each do |ignite| %>
+<div class="row">
+<div class="col-lg-4">
+  <%= link_to ignite do %>
+  <%= image_tag ignite.slide_0.url(:small) %>
+  <% end %>
+</div>
+<div class="col-lg-4">
+  <%= ignite.name %>
+</div>
+<div class="col-lg-4">
+  <%= ignite.data %><br>
+  <%= link_to 'Modifica', edit_ignite_path(ignite) %>
+</div>
+</div>
+<% end %>
+
+
